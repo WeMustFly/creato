@@ -1,0 +1,27 @@
+.btn-play {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    padding-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #ababab;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    &__play {
+        width: 0;
+        height: 0;
+        border-top: 13px solid transparent;
+        border-bottom: 13px solid transparent;
+        border-left: 21px solid #ef4836;
+    }
+}

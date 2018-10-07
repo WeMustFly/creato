@@ -1,0 +1,29 @@
+.section--services {
+    & .content {
+        position: relative;
+        &__icon {
+            position: absolute;
+            top: 13px;
+            left: 0;
+            fill: white;
+        }
+        &__title {
+            font-size: 24px;
+            font-weight: 300;
+            padding-left: 50px;
+            margin-bottom: 40px;
+        }
+        &__text {
+            font-size: 14px;
+            font-weight: 200;
+            margin-bottom: 30px;
+        }
+        &__more {
+            font-size: 18px;
+            font-weight: 700;
+        }
+        &::before {
+            content: none;
+        }
+    }
+}

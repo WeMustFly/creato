@@ -1,0 +1,14 @@
+.section {
+    position: relative;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__background {
+        font-size: 128px;
+        color: rgba(255, 255, 255, 0.012);
+        text-transform: uppercase;
+        position: absolute;
+        left: 110px;
+        top: 110px;
+    }
+}

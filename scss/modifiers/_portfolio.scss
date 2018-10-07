@@ -1,0 +1,8 @@
+.section--portfolio {
+    & .menu {
+        &__item {
+            animation: none;
+            cursor: pointer;
+        }
+    }
+}

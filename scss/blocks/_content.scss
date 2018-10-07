@@ -1,0 +1,36 @@
+.content {
+    position: relative;
+    &__title {
+        margin: 0;
+        font-size: 48px;
+        line-height: 66px;
+        text-transform: uppercase;
+    }
+    &__text {
+        font-weight: 200;
+        line-height: 32px;
+    }
+    &__more {
+        color: inherit;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 700;
+        &::after {
+            content: " \f30b";
+            font-family: "Font Awesome 5 Free";
+            padding-left: 5px;
+            vertical-align: -6%;
+        }
+    }
+    &__icon {}
+    &::before {
+        content: "";
+        display: block;
+        background: $text-color;
+        position: absolute;
+        top: 20px;
+        left: -64px;
+        height: 1px;
+        width: 90px;
+    }
+}

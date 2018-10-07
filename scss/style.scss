@@ -1,0 +1,31 @@
+@import 'normalize';
+@import 'slick';
+@import 'fonts';
+
+@import 'vars';
+@import 'layout';
+@import 'animate';
+
+@import 'tags';
+
+@import 'blocks/ba-container';
+@import 'blocks/section';
+@import 'blocks/content';
+@import 'blocks/logo';
+@import 'blocks/menu';
+@import 'blocks/btn-play';
+@import 'blocks/social';
+@import 'blocks/header';
+@import 'blocks/hero';
+@import 'blocks/subscribe';
+@import 'blocks/footer';
+@import 'blocks/grid';
+
+@import 'modifiers/top';
+@import 'modifiers/hero';
+@import 'modifiers/about';
+@import 'modifiers/services';
+@import 'modifiers/portfolio';
+@import 'modifiers/testimonial';
+@import 'modifiers/brands';
+@import 'modifiers/contact';
