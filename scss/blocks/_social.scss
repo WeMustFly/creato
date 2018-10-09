@@ -1,5 +1,14 @@
 .social {
+    list-style: none;
     &__item {
         float: left;
+        margin-right: 10px;
+        cursor: pointer;
+        &:last-of-type {
+            margin-right: 0;
+        }
+        &:hover {
+            color: #2866bd;
+        }
     }
 }

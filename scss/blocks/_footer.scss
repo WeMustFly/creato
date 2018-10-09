@@ -1,1 +1,9 @@
-.footer {}
+.footer {
+    padding-bottom: 50px;
+    &__logo {
+        margin-right: 15px;
+    }
+    &__copyright {
+        line-height: 3px;
+    }
+}

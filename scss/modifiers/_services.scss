@@ -6,12 +6,19 @@
             top: 13px;
             left: 0;
             fill: white;
+            @media screen and (max-width: $bp-medium - 1px) {
+                top: 33px;
+                left: 20px;
+            }
         }
         &__title {
             font-size: 24px;
             font-weight: 300;
             padding-left: 50px;
             margin-bottom: 40px;
+            @media screen and (max-width: $bp-medium - 1px) {
+                margin-bottom: 0;
+            }
         }
         &__text {
             font-size: 14px;
@@ -24,6 +31,9 @@
         }
         &::before {
             content: none;
+        }
+        @media screen and (max-width: $bp-medium - 1px) {
+            padding: 20px;
         }
     }
 }

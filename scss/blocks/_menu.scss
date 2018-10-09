@@ -13,15 +13,24 @@
                 color: #ef4836;
             }
         }
-        @media screen and (max-width: $bp-small - 1px) {
+        @media screen and (max-width: $bp-medium - 1px) {
             display: none;
             float: none;
-            &.open {
-                display: block;
-            }
         }
         &--burger {
             display: none;
+            &:hover {
+                animation: none;
+            }
+            @media screen and (max-width: $bp-medium - 1px) {
+                display: block;
+            }
+        }
+        &--closer {
+            display: none;
+            &:hover {
+                animation: none;
+            }
             @media screen and (max-width: $bp-medium - 1px) {
                 display: block;
             }
@@ -31,6 +40,9 @@
         }
     }
     &--open {
+        .menu__item:not(.menu__item--closer) {
+            display: block;
+        }
         .menu__item--burger {
             visibility: hidden;
         }

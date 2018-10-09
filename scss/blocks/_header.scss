@@ -1,4 +1,7 @@
 .header {
     padding-top: 65px;
     margin-bottom: 220px;
+    @media screen and (max-width: $bp-medium - 1px) {
+        margin-bottom: 20px;
+    }
 }
